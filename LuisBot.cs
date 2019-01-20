@@ -225,7 +225,7 @@ Kye, Kevin|BCC|Software Engineer|591 N Shaw Ln|East Lansing|Ingham County|MI|488
                     if (topIntent != null && topIntent.HasValue && topIntent.Value.intent != "None") {
                         if(turnContext.Activity.Text == "welcome")
                         {
-                            await turnContext.SendActivityAsync("Welcome to Team Null's clinic finder bot, you can try to ask me \"Find me a clinic\" or \"Set my clinic\".");
+                            await turnContext.SendActivityAsync("Welcome to Team Null's clinic finder bot, you can try to ask me \"Find me a clinic\" or \"Remove saved clinic\".");
 
                         }
                         else if (topIntent.Value.score < 0.5)
@@ -240,6 +240,9 @@ Kye, Kevin|BCC|Software Engineer|591 N Shaw Ln|East Lansing|Ingham County|MI|488
                                     break;
                                 case "clinic_set":
                                     await turnContext.SendActivityAsync("setclinic");
+                                    break;
+                                case "clinic_delete":
+                                    await turnContext.SendActivityAsync("deleteclinic");
                                     break;
                                 default:
                                     await turnContext.SendActivityAsync("I do not understand your question, you can try to ask \"Find me a clinic\".");
