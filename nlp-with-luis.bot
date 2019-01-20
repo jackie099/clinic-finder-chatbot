@@ -1,0 +1,34 @@
+{
+    "name": "nullbot",
+    "description": "",
+  "services": [
+      {
+        "type": "endpoint",
+        "endpoint": "https://teamnullbot.azurewebsites.net/api/messages",
+        "name": "Production",
+        "id": ""
+      },
+      {
+        "type": "endpoint",
+        "appId": "",
+        "appPassword": "",
+        "endpoint": "http://localhost:3978/api/messages",
+        "id": "166",
+        "name": "development"
+      },
+      {
+        "type": "luis",
+        "appId": "dc9e0a25-5a6e-49ce-a813-779c0626c134",
+        "authoringKey": "809d42b53bb94df08ff5fdf0cef63dd4",
+        "id": "34",
+        "name": "nullteam",
+        "region": "westus",
+        "subscriptionKey": "",
+        "version": "0.1"
+      }
+  ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\final_bot\\nlp-with-luis.bot",
+    "overrides": null
+}

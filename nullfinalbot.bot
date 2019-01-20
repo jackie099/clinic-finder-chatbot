@@ -1,0 +1,66 @@
+{
+    "name": "nullfinalbot",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "appId": "5d025d89-2432-44ee-91a7-d4a627c5b3d8",
+            "id": "1",
+            "name": "nullfinalbot",
+            "resourceGroup": "nullfinalbot",
+            "serviceName": "nullfinalbot",
+            "subscriptionId": "cfce2a24-27ec-45dc-93e0-c8270c77a385",
+            "tenantId": "22177130-642f-41d9-9211-74237ad5687d"
+        },
+        {
+            "type": "blob",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=nullfinalbnjro;AccountKey=/U/5pfF44v2tPwJXTJiLux+6Rfh3UJnZBrjGUZ8cHJZVcp/u4Rm/nu+yoF2Ldp01wPzV4gwj5j1RgUfsmOgsDg==;",
+            "id": "2",
+            "resourceGroup": "nullfinalbot",
+            "serviceName": "nullfinalbnjro",
+            "subscriptionId": "cfce2a24-27ec-45dc-93e0-c8270c77a385",
+            "tenantId": "22177130-642f-41d9-9211-74237ad5687d"
+        },
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "3",
+            "name": "development"
+        },
+        {
+            "type": "endpoint",
+            "appId": "5d025d89-2432-44ee-91a7-d4a627c5b3d8",
+            "appPassword": "a1SJ7MjPk$dc(*62",
+            "endpoint": "https://nullfinalbota2oh.azurewebsites.net/api/messages",
+            "id": "4",
+            "name": "production"
+        },
+        {
+            "type": "appInsights",
+            "apiKeys": {},
+            "applicationId": "2be6404f-ccc3-4e9e-b3a3-e668a6f69056",
+            "id": "5",
+            "instrumentationKey": "f3bf8283-89fa-4dba-87a5-076951dd6fed",
+            "resourceGroup": "nullfinalbot",
+            "serviceName": "nullfinalbotvxcd4c",
+            "subscriptionId": "cfce2a24-27ec-45dc-93e0-c8270c77a385",
+            "tenantId": "22177130-642f-41d9-9211-74237ad5687d"
+        },
+        {
+            "type": "luis",
+            "appId": "dc9e0a25-5a6e-49ce-a813-779c0626c134",
+            "authoringKey": "809d42b53bb94df08ff5fdf0cef63dd4",
+            "id": "dc9e0a25-5a6e-49ce-a813-779c0626c134",
+            "name": "nullteam",
+            "region": "westus",
+            "subscriptionKey": "809d42b53bb94df08ff5fdf0cef63dd4",
+            "version": "0.1"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\final_bot\\nullfinalbot.bot"
+}
